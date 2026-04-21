@@ -2,6 +2,7 @@ package ca.uwo.csd.cs2212.USERNAME;
 
 public class BankAccount {
 
+  //test
   private double balance;
 
   public BankAccount(double balance) {
@@ -10,7 +11,7 @@ public class BankAccount {
 
   public double debit(double amount) {
     if (balance < amount) {
-      amount = balance;
+      amount = balancee;
     }
 
     balance -= amount;
